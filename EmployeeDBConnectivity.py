@@ -60,7 +60,7 @@ class Employee:
         print("Data deleted successfully!!")
 
     # Close Connectivity
-    def close_connectivity(self):
+    def close_connection(self):
 
         self.conn.close()
 
