@@ -1,6 +1,6 @@
 import mysql.connector
 
-class Employee:
+class EmployeeDetails:
 
     def __init__(self):
 
@@ -68,7 +68,7 @@ class Employee:
 
 
 # Object Creation
-e1 = Employee()
+e1 = EmployeeDetails()
 
 print("\nOptions\n1.Fetch data.\n2.Insert data.\n3.Delete data.\n4.Exit.")
 
